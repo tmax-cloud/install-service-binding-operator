@@ -1446,7 +1446,8 @@ rules:
 - apiGroups:
   - kafka.strimzi.io
   resources:
-  - kafka
+  - kafkas
+  - kafkas/status
   verbs:
   - get
   - list
