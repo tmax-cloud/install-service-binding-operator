@@ -1,5 +1,8 @@
 # Install Service-Binding-Operator
 
+## ServiceBindingOperator  
+reference version : v1.3.2  
+https://github.com/redhat-developer/service-binding-operator/releases/tag/v1.3.2
 ## Service Binding Docs
 ### quickstart guide
 
