@@ -1684,11 +1684,11 @@ spec:
           protocol: TCP
         resources:
           requests:
-            cpu: "50m"
-            memory : "16Mi"
+            cpu: "100m"
+            memory : "128Mi"
           limits:
-            cpu: "250m"
-            memory : "64Mi"
+            cpu: "1000m"
+            memory : "1Gi"
         readinessProbe:
           httpGet:
             path: /readyz
