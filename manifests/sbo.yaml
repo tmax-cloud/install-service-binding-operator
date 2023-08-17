@@ -1670,7 +1670,7 @@ spec:
         command:
         - /manager
         imagePullPolicy: Always
-        image: tmaxcloudck/service-binding-operator:1.0.0
+        image: quay.io/redhat-developer/servicebinding-operator:b3693e45
         livenessProbe:
           httpGet:
             path: /healthz
